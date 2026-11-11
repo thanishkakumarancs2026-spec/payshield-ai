@@ -1,4 +1,4 @@
-"""PayShield AI: explainable fraud monitoring with a PayPal Sandbox checkout."""
+""" AI: explainable fraud monitoring with a PayPal Sandbox checkout."""
 from __future__ import annotations
 
 import base64

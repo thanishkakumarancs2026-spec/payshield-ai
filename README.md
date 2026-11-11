@@ -1,4 +1,4 @@
-# PayShield AI
+#  AI
 
 A beginner-friendly Flask MVP for a hackathon demo: a payment monitoring dashboard, transparent fraud-risk scoring rules, transaction simulator, and PayPal Checkout. The PayPal integration uses PayPal's server-side Orders v2 API. Without credentials, the page clearly labels checkout as simulated.
 

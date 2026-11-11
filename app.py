@@ -15,6 +15,8 @@ from decimal import Decimal, InvalidOperation
 from threading import Lock
 
 from flask import Flask, jsonify, render_template, request
+from dotenv import load_dotenv
+load_dotenv()
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = os.getenv("SECRET_KEY", "local-demo-change-me")

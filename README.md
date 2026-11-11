@@ -2,7 +2,7 @@
 
 A beginner-friendly Flask MVP for a hackathon demo: a payment monitoring dashboard, transparent fraud-risk scoring rules, transaction simulator, and PayPal Checkout. The PayPal integration uses PayPal's server-side Orders v2 API. Without credentials, the page clearly labels checkout as simulated.
 
-> **Demo status:** This MVP uses in-memory sample transactions and hand-written rules. It is not a trained AI/ML model, a production fraud detector, or a real payment system unless configured with PayPal Sandbox credentials. The default checkout records a simulated payment and never contacts PayPal.
+> **Demo status:** Risk scoring combines transparent rules with an Isolation Forest anomaly model trained on synthetic demo data. It is for demonstration, not production fraud decisions. PayPal checkout can create and capture Sandbox test payments; Sandbox moves no real money. Without Sandbox credentials, checkout is clearly labeled as simulated. Transactions are kept in memory and reset when the app restarts.
 
 ## Start on Windows
 
